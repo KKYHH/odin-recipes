@@ -1,79 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Best Hamburger Ever</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Hamburger Ever</title>
 
-  <style>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-image: url("/images/burgerone.gif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+      }
 
-    body{
-      width: 800px;
-      margin:auto;
-    }
+      img {
+        border-radius: 100%;
+      }
 
-    .title{
-      font-size: 48px;
-      font-weight: bold;
-      margin-top: 30px;
-    }
-    
-    .bestburger{
-float: left;
-margin-right: 15px;
-margin-top: 10px;
-width: 300px;
-height: 300px;
-object-fit: cover;
+      .title {
+        font-size: 56px;
+        font-weight: 900;
+        padding: 20px;
+      }
 
-    }
+      .burger {
+        display: flex;
+        justify-content: center;
+      }
 
-    .ingr{
-display: inline-block;
+      .ingr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
 
-    }
-  </style>
+      .ingr-title {
+        font-size: 32px;
+        font-weight: 500;
+        padding: 20px;
+      }
 
-</head>
-<body>
-  <div class="title">Best Hamburger Ever</div>
-  <img src="../images/bestHamburgerEver.webp" alt="best" class="bestburger">
+      .ingr-list {
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
 
+      .directions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+      }
 
-<div class="ingr">
-<h2>Ingredients</h2>
-<li>1 ½ pounds lean ground beef</li>
-<li>½ onion, finely chopped</li>
-<li>½ cup shredded Colby Jack or Cheddar cheese</li>
-<li>1 egg</li>
-<li>1 (1 ounce) envelope dry onion soup mix</li>
-<li>1 clove garlic, minced</li>
-<li>1 tablespoon garlic powder</li>
-<li>1 teaspoon soy sauce</li>
-<li>1 teaspoon Worcestershire sauce</li>
-<li>1 teaspoon dried parsley</li>
-<li>1 teaspoon dried basil</li>
-<li>1 teaspoon dried oregano</li>
-<li>½ teaspoon crushed dried rosemary</li>
-<li>salt and pepper to taste</li>
-</div>
+      .diretions-title {
+        font-size: 32px;
+        font-weight: 500;
+        padding: 10px;
+        margin-top: 75px;
+      }
+      .mid {
+        display: flex;
+      }
 
-<div>
-<h2>Directions</h2>
+      .step-content {
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+      }
 
-<h3>Step 1</h3>
-<p>Preheat an outdoor grill for high heat and lightly oil the grate.</p>
+      .step {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
 
+      .step-title {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
 
-<h3>Step 2</h3>
-<p>Meanwhile, combine ground beef, onion, cheese, egg, onion soup mix, minced garlic, garlic powder, soy sauce, Worcestershire sauce, parsley, basil, oregano, rosemary, salt, and pepper in a large bowl. Use your hands to form the mixture into 4 patties.</p>
+  <body>
+    <div class="title">Best Hamburger Ever</div>
 
+    <div class="burger">
+      <img src="../images/bestHamburgerEver.webp" alt="best" />
+    </div>
 
-<h3>Step 3</h3>
-<p>Cook patties on the preheated grill until no longer pink in the center and the juices run clear, about 4 to 5 minutes per side. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).</p>
+    <div class="mid">
+      <div class="ingr">
+        <div class="ingr-title">Ingredients</div>
+        <div class="ingr-list">
+          <div>1 ½ pounds lean ground beef</div>
+          <div>½ onion, finely chopped</div>
+          <div>½ cup shredded Colby Jack or Cheddar cheese</div>
+          <div>1 egg</div>
+          <div>1 (1 ounce) envelope dry onion soup mix</div>
+          <div>1 clove garlic, minced</div>
+          <div>1 tablespoon garlic powder</div>
+          <div>1 teaspoon soy sauce</div>
+          <div>1 teaspoon Worcestershire sauce</div>
+          <div>1 teaspoon dried parsley</div>
+          <div>1 teaspoon dried basil</div>
+          <div>1 teaspoon dried oregano</div>
+          <div>½ teaspoon crushed dried rosemary</div>
+          <div>salt and pepper to taste</div>
+        </div>
+      </div>
 
+      <div class="directions">
+        <div class="diretions-title">Directions</div>
 
-</div>
+        <div class="step">
+          <div class="step-title">Step 1</div>
+          <div class="step-content">
+            Preheat an outdoor grill for high heat and lightly oil the grate.
+          </div>
 
-</body>
+          <div class="step">
+            <div class="step-title">Step 2</div>
+            <div class="step-content">
+              Meanwhile, combine ground beef, onion, cheese, egg, onion soup
+              mix, minced garlic, garlic powder, soy sauce, Worcestershire
+              sauce, parsley, basil, oregano, rosemary, salt, and pepper in a
+              large bowl. Use your hands to form the mixture into 4 patties.
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-title">Step 3</div>
+            <div class="step-content">
+              Cook patties on the preheated grill until no longer pink in the
+              center and the juices run clear, about 4 to 5 minutes per side. An
+              instant-read thermometer inserted into the center should read at
+              least 165 degrees F (74 degrees C).
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,59 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cheese Burger</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheese Burger</title>
 
-  <style>
-body {
-  width: 800px;
-  margin:auto;
-}
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("/images/burgerthree.gif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+      }
 
-.cheese {
-  float: left;
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
-  margin-right: 20px;
-  margin-top: 20px;
-}
+      img {
+        border-radius: 40px;
+      }
 
-.title {
-  font-size: 48px;
-      font-weight: bold;
-      margin-top: 30px;
-}
+      .title {
+        font-size: 56px;
+        font-weight: 900;
+        padding: 20px;
+      }
 
-  </style>
+      .burger {
+        display: flex;
+        justify-content: center;
+      }
 
-</head>
-<body>
-  <div class="title">Cheese Burger</div>
-  
-  <img src="../images/cheeseBurger.jpeg" alt="cheese" class="cheese">
+      .ingr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
 
-  <h2>INGREDIENTS</h2>
+      .ingr-title {
+        font-size: 32px;
+        font-weight: 500;
+        padding: 20px;
+      }
 
-  <li>½ cup mayonnaise</li>
-  <li>¼ cup ketchup</li>
-  <li>3 tablespoons dill pickle relish</li>
-  <li>1 tablespoon Dijon mustard</li>
-  <li>2 pounds ground beef, 80/20</li>
-  <li>Kosher salt and freshly ground black pepper, to taste</li>
-  <li>1 tablespoon canola oil</li>
-  <li>6 slices American cheese</li>
-<br>
+      .ingr-list {
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+      }
 
-<h2>FOR SERVING</h2>
-<li>Brioche hamburger buns, homemade or store-bought</li>
-<li>Romaine or shredded lettuce</li>
-<li>Sliced tomato</li>
-<li>Sliced red onion</li>
-<li>Dill pickle chips</li>
+      .for {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-bottom: 100px;
+      }
 
-<br>
+      .for-title {
+        font-size: 32px;
+        font-weight: 500;
+        padding: 10px;
+        margin-top: 75px;
+      }
 
-</body>
+      .for-list {
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .mid {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">Cheese Burger</div>
+    <div class="burger"></div>
+    <img
+      src="../images/cheeseBurger.jpeg"
+      alt="cheese"
+      height="400px"
+      width="300px"
+    />
+
+    <div class="mid">
+      <div class="ingr">
+        <div class="ingr-title">INGREDIENTS</div>
+        <div class="ingr-list">
+          <div>½ cup mayonnaise</div>
+          <div>¼ cup ketchup</div>
+          <div>3 tablespoons dill pickle relish</div>
+          <div>1 tablespoon Dijon mustard</div>
+          <div>2 pounds ground beef, 80/20</div>
+          <div>Kosher salt and freshly ground black pepper, to taste</div>
+          <div>1 tablespoon canola oil</div>
+          <div>6 slices American cheese</div>
+        </div>
+      </div>
+
+      <div class="for">
+        <div class="for-title">FOR SERVING</div>
+        <div class="for-list">
+          <div>Brioche hamburger buns, homemade or store-bought</div>
+          <div>Romaine or shredded lettuce</div>
+          <div>Sliced tomato</div>
+          <div>Sliced red onion</div>
+          <div>Dill pickle chips</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
