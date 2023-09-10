@@ -15,10 +15,10 @@ https://kkyhh.github.io/odin-recipes/
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/102516350/266851628-b8c033dd-515a-4e61-b999-19446497c4fb.png" width="250" height="250">
-<img src="https://user-images.githubusercontent.com/102516350/266863829-99ec9426-9d05-4c6d-8f3d-21e5fae8edfc.png" width="250" height="250">
-<img src="https://user-images.githubusercontent.com/102516350/266863839-927043e6-2f8a-49c6-bb10-7a60532843e6.png" width="250" height="250">
-<img src="https://user-images.githubusercontent.com/102516350/266851634-619dc8e0-c94f-417e-ac10-704fca925b0b.png" width="250" height="250">
+<img src="https://user-images.githubusercontent.com/102516350/266851628-b8c033dd-515a-4e61-b999-19446497c4fb.png" width="350" height="350">
+<img src="https://user-images.githubusercontent.com/102516350/266863829-99ec9426-9d05-4c6d-8f3d-21e5fae8edfc.png" width="350" height="350">
+<img src="https://user-images.githubusercontent.com/102516350/266863839-927043e6-2f8a-49c6-bb10-7a60532843e6.png" width="350" height="350">
+<img src="https://user-images.githubusercontent.com/102516350/266851634-619dc8e0-c94f-417e-ac10-704fca925b0b.png" width="350" height="350">
 </p>
 
 
